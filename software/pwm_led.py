@@ -38,13 +38,13 @@ sleep(1)
 #fade
 #fade in
 for duty_cycle in range(0, 100, 1):
-      blue_led.value = duty_cycle/100.0
-      sleep(0.05)
+    blue_led.value = duty_cycle/100.0
+    sleep(0.05)
 
 #fade out
 for duty_cycle in range(100, 0, -1):
-     blue_led.value = duty_cycle/100.0
-     sleep(0.05)
+    blue_led.value = duty_cycle/100.0
+    sleep(0.05)
 
 # You can use the following code to test the PWMLED using the pulse function
      
@@ -52,5 +52,5 @@ for duty_cycle in range(100, 0, -1):
 #from signal import pause # Import of the pause function from the signal library
 
 
-blue_led.pulse(fade_in_secs=1,fade_out_secs=1, n=5,background=True) #LED fades in and out
-#pause() #The pause function is used to keep the program running and to keep the LED on
+blue_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True) #LED fades in and out
+#pause() #The pause function is used to keep the program run`ning and to keep the LED on
