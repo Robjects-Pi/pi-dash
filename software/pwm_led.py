@@ -13,6 +13,7 @@ To install the library, run the following command in the terminal:'
 'python3 -m pip gpiozero'
 
 '''
+
 from gpiozero import PWMLED
 from time import sleep # Import of the sleep function from the time library
 
