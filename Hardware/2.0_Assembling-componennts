@@ -1,0 +1,21 @@
+# 2.0 Build the electronics
+<br>
+
+This directory contains all of the source files needed to assemble the electronics for Alto. They are based around a single through-hole prototyping board which can be assembled easily by hand. This board connects to the GPIO pins of the Raspberry Pi Zero, and breaks out headers for the other component parts of Alto: two servos, two buttons, and an LED.
+
+Each of these items are common and easy to get, or you might even have them in your making space already. Alternatively, they can easily be substituted for other parts, for example if you have different servos or LEDs available. 
+
+The full list of components is available [here](electronics/.xlsx) as a downloadable spreadsheet.
+
+**Skills required**   
+- Through hole soldering, reading a circuit diagram
+
+**Time to complete**     
+- 30-90 minutes (depending on your soldering experience)
+
+**Tools you’ll need**     
+- Soldering iron
+- Solder 
+- Wire strippers
+- Optional: helping hand, solder tip cleaner, multimeter, heat proof mat<br>
+<br>
