@@ -1,0 +1,1 @@
+this guide is to teach how to attach a gpio pin with a fan that is either attached to the pi hat or configured to your own setup.
