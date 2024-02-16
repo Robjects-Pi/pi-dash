@@ -1,3 +1,4 @@
+
 #Set up of 3 Gpios for the setting of the color of 3 different LED via PWM (Pulse Width Modulation) in case I want to use the flicker effect as notifcation.
 #The flicker effect is not used in the current version of the software
 
@@ -54,3 +55,7 @@ for duty_cycle in range(100, 0, -1):
 
 blue_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True) #LED fades in and out
 #pause() #The pause function is used to keep the program run`ning and to keep the LED on
+#green_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True)
+#pause()
+#red_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True)
+#wait for the LED to finish pulsing
