@@ -15,6 +15,7 @@ To install the library, run the following command in the terminal:'
 
 '''
 
+# The following code is used to test the PWMLED using the value attribute
 from gpiozero import PWMLED
 from time import sleep # Import of the sleep function from the time library
 
@@ -24,8 +25,7 @@ red_led = PWMLED(13)
 green_led = PWMLED(12)
 
 
-# The following code is used to test the PWMLED blue_led
-
+# The following code is used to test the PWMLED blue_led using the value attribute
 blue_led.value = 1   #LED fully on
 sleep(1)
 blue_led.value = 0.5  #LED half-brightness
@@ -48,13 +48,14 @@ for duty_cycle in range(100, 0, -1):
     sleep(0.05)
 
 # You can use the following code to test the PWMLED using the pulse function
-     
 
 #from signal import pause # Import of the pause function from the signal library
 
 
 blue_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True) #LED fades in and out
-#pause() #The pause function is used to keep the program run`ning and to keep the LED green_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True)
+#pause() 
+# The pause function is used to keep the program run`ning and to keep the LED 
+green_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True)
 #pause()
 red_led.pulse(fade_in_time=1,fade_out_time=1, n=5,background=True)
 #wait for the LED to finish pulsing
