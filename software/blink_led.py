@@ -4,8 +4,11 @@ from gpiozero import PWMLED
 from signal import pause
 
 blue_led = PWMLED(18)
+red_led = PWMLED(13)
+green_led = PWMLED(12)
+
 
 
 blue_led.blink(on_time=1, off_time=1, n=5) #LED blinks 5 times
-
-#pause() #The pause function is used to keep the program running and to keep the LED on
+red_led.blink(on_time=1, off_time=1, n=5) #LED blinks 5 times
+green_led.blink(on_time=1, off_time=1, n=5) #LED blinks 5 times#pause() #The pause function is used to keep the program running and to keep the LED on
