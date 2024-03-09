@@ -1,4 +1,4 @@
-# pi-dash - DIY Dashcam using Raspberry Pi<br>
+# Pi-Dash - DIY Dashcam using Raspberry Pi<br>
 <br>
 
 
