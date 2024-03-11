@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - master
+
+name: "Trigger: Push action"
+permissions: {}
+
+jobs:
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run ShellCheck
+      uses: ludeeus/action-shellcheck@master
+      with:
+        check_together: 'yes'
