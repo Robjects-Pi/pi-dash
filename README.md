@@ -2,11 +2,15 @@
 <br>
 
 
-Say Goodbye to personal injury scams, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi. d The pi dash was designed to simplify data collection, and teach you how to automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
+Say hello to the world of DIY recording, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi. d The pi dash was designed to simplify data collection, and teach you how to automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
 
 Using a computer like a raspberry pi zero, the project takes advantage of small form factor  to create a working, standalone device built from scratch that you combine or mix with unlimited capabilities. 
 
-This repository contains instructions, files to run scripts and services required to record ongoing video with the option of running code automatically when the device turns on. Recordings are stored on an SD card (or USB drive) that you can remove any time you want a chance to review the footage. 
+This repository contains instructions:
+- Python files for recording and storing of files for location of preference
+- bash scripts to test and run python files from environment
+- systemd scripts that configure self-start of recordings at boot time.
+- instructions on potential offline synchronization with server or external usb 
 
 Many customizations are available, as I implemented a battery on my personal device to enable offline transfer of videos for extra security. Please feel free to fork, export the project, and utilize the project however you please.
 
