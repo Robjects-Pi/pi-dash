@@ -1,37 +1,25 @@
+on:
+  issue_comment:
+    types:
+    - 'created'
+
 jobs:
-    spellcheck:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Check Spelling
-                uses: UnicornGlobal/spellcheck-github-actions@0.5.0
-                with:
-                    # The languages to check
-                    languages: "en"
-                    # The file extensions to check
-                    extensions: "js,vue,html,md"
-                    # The file paths to check
-                    paths: "."
-                    # The file paths to ignore
-                    ignorePaths: "node_modules,dist"
-                    # The file paths to ignore
-                    ignoreFiles: "README.md"
-                    # The file paths to ignore
-                    ignoreTitles: "true"
-                    # The file paths to ignore
-                    ignoreCode: "true"
-                    # The file paths to ignore
-                    ignoreUppercase: "true"
-                    # The file paths to ignore
-                    ignoreDigits: "true"
-                    # The file paths to ignore
-                    ignoreUrls: "true"
-                    # The file paths to ignore
-                    ignoreEmails: "true"
-                    # The file paths to ignore
-                    ignoreAcronyms: "true"
-                    # The file paths to ignore
-                    ignoreMixed: "true"
-                    # The file paths to ignore
-                    ignoreWords: "true"
-                    # The file paths to ignore
-                    ignoreNumbers: "true"
+  update:
+    name: Update PR
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: read
+    runs-on: ubuntu-latest
+    if: ${{
+        github.event_name == 'issue_comment' &&
+        github.event.issue.pull_request &&
+        contains(github.event.comment.body, '@check-spelling-bot apply')
+      }}
+    steps:
+    - name: apply spelling updates
+      uses: check-spelling/check-spelling@main
+      with:
+        experimental_apply_changes_via_bot: 1
+        checkout: true
+        ssh_key: "${{ secrets.CHECK_SPELLING }}"
