@@ -1,5 +1,25 @@
-            - name: Check Spelling (JS, Vue, HTML, Markdown, Text)
-  # You may pin to the exact commit or the version.
-  # uses: UnicornGlobal/spellcheck-github-actions@729ccf160f6e72bd078904cddd5e6244f81ee156
-  uses: UnicornGlobal/spellcheck-github-actions@0.4.0
-          
+on:
+  issue_comment:
+    types:
+    - 'created'
+
+jobs:
+  update:
+    name: Update PR
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: read
+    runs-on: ubuntu-latest
+    if: ${{
+        github.event_name == 'issue_comment' &&
+        github.event.issue.pull_request &&
+        contains(github.event.comment.body, '@check-spelling-bot apply')
+      }}
+    steps:
+    - name: apply spelling updates
+      uses: check-spelling/check-spelling@main
+      with:
+        experimental_apply_changes_via_bot: 1
+        checkout: true
+        ssh_key: "${{ secrets.CHECK_SPELLING }}"
