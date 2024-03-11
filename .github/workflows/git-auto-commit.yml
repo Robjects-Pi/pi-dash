@@ -1,4 +1,4 @@
-            - name: Git Auto Commit
+name: Git Auto Commit
   # You may pin to the exact commit or the version.
   # uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d
   uses: stefanzweifel/git-auto-commit-action@v5.0.0
