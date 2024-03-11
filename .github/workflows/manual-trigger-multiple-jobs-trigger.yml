@@ -1,5 +1,4 @@
 name: manual-trigger-multiple-jobs-trigger
-run-name: ${{ github.actor }} is manually testing out a github action 🚀
 on: 
   workflow_dispatch:
       # Inputs the workflow accepts.
