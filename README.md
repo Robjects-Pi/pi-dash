@@ -10,8 +10,22 @@ Say hello to the world of DIY recording, and introduce yourself to your own DIY 
 <br>
 
 ***Table of Contents***
+- [Pi-Dash - DIY Dashcam using Raspberry Pi](#pi-dash---diy-dashcam-using-raspberry-pi)
+  - [What you’ll find in this document](#what-youll-find-in-this-document)
+  - [Make your own Pi Dashcam](#make-your-own-pi-dashcam)
+    - [1.0: Set up the software](#10-set-up-the-software)
+    - [2.0: Build the electronics](#20-build-the-electronics)
+    - [3.0:  Setting up and testing pi dashcam for automatic recordings of preferred length ](#30--setting-up-and-testing-pi-dashcam-for-automatic-recordings-of-preferred-length-)
+    - [4.0: Printing out the electronics casing (OPTIONAL)](#40-printing-out-the-electronics-casing-optional)
+  - [Experiment with Alto](#experiment-with-alto)
+  - [Remixing Alto for your projects](#remixing-alto-for-your-projects)
+    - [Hacking the software](#hacking-the-software)
+    - [Hacking the hardware](#hacking-the-hardware)
+    - [Hacking the casing](#hacking-the-casing)
+    - [OS \& compute](#os--compute)
+    - [Software](#software)
+    - [Electronics](#electronics)
 
-<TODO: create toc and stop here>
 
 The pi dash was designed to simplify data collection, and teach you how to not only code your own recording device but build up the basic capabilities of a automatic recording device in which you can apply any type of custom features from the endless capabilities of a raspberry pi!  
 
