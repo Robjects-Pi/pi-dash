@@ -2,7 +2,20 @@
 <br>
 
 
-Say hello to the world of DIY recording, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi. d The pi dash was designed to simplify data collection, and teach you how to automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
+Say hello to the world of DIY recording, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi.  
+
+![pidash image here](images/pidash.jpg)
+
+<br>
+<br>
+
+***Table of Contents***
+
+<TODO: create toc and stop here>
+
+The pi dash was designed to simplify data collection, and teach you how to not only code your own recording device but build up the basic capabilities of a automatic recording device in which you can apply any type of custom features from the endless capabilities of a raspberry pi!  
+
+automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
 
 Using a computer like a raspberry pi zero, the project takes advantage of small form factor  to create a working, standalone device built from scratch that you combine or mix with unlimited capabilities. 
 
@@ -16,9 +29,7 @@ Many customizations are available, as I implemented a battery on my personal dev
 
 \
 
- ![pidash image here](images/pidash.jpg)
-<br>
-<br>
+
  ![pidash installed image here](images/pidash-installed.jpg)
 <br>
 <br>
