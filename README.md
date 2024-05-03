@@ -11,7 +11,9 @@ Say hello to the world of DIY recording, and introduce yourself to your own DIY 
 
 ***Table of Contents***
 - [Pi-Dash - DIY Dashcam using Raspberry Pi](#pi-dash---diy-dashcam-using-raspberry-pi)
+- [Overview](#overview)
   - [What you’ll find in this document](#what-youll-find-in-this-document)
+  - [What you’ll find in this document](#what-youll-find-in-this-document-1)
   - [Make your own Pi Dashcam](#make-your-own-pi-dashcam)
     - [1.0: Set up the software](#10-set-up-the-software)
     - [2.0: Build the electronics](#20-build-the-electronics)
@@ -26,12 +28,29 @@ Say hello to the world of DIY recording, and introduce yourself to your own DIY 
     - [Software](#software)
     - [Electronics](#electronics)
 
+# Overview
+The pi dash was designed to simplify data collection, and teach you how to not only code your own recording device but build up the entire enclosure, mount, and set up of an automatic recording device from the endless capabilities of a raspberry Pi!  
 
-The pi dash was designed to simplify data collection, and teach you how to not only code your own recording device but build up the basic capabilities of a automatic recording device in which you can apply any type of custom features from the endless capabilities of a raspberry pi!  
+With this, you will be able to go past the basic functionalities and limits of pre-built dashcams
+and integrate your own solutions and features that extensive data collection and recording can provide.
 
-automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
+With the tutorial, you will be able to build your own dashcam that records and stores video files in a location of your preference. The project is designed to be a simple, easy-to-follow guide to building a DIY dashcam using a Raspberry Pi Zero. The project is aimed at beginners and hobbyists who are interested in learning relevant implementations of DIY applications.
 
-Using a computer like a raspberry pi zero, the project takes advantage of small form factor  to create a working, standalone device built from scratch that you combine or mix with unlimited capabilities. 
+Also, by following this tutorial, you will learn about the basics of machine learning and computer vision, and how to apply these concepts to a real-world project. The project is designed to be a fun and engaging way to learn about these topics, and to inspire you to explore them further.
+
+
+comes from variety of automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
+
+## What you’ll find in this document
+
+This document has five chapters:
+    
+  1. **Setting up the rpi image**: Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
+  2. **Assembling and gathering components**: - Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
+  3. Setting up and testing pi dashcam for automatic recordings of preferred length - An easy-to-follow software overview of services set on rpi to make automatic recording of camera whenever you turn on the device.
+  4. printing out the case for all your components(OPTIONAL)  - A set of simple experiments to help understand how Alto works, and how you can use Alto to introduce some of the basic concepts of machine learning to others.
+  5. Putting together the device with the car mounting equipment.Setting up your device in your car for aesthetic build - A brief introduction to how you can hack your Alto to look and behave differently to fit your own application.
+
 
 This repository contains instructions:
 - Python files for recording and storing of files for location of preference
@@ -131,13 +150,13 @@ The following steps will guide you through the process of assembling your own Pi
 ![soldering overhead](images/alto-readme-8.png)
 <br>
 <br>
-### 1.0: [Set up the software](1.0-Set-up-the-software.md)
 
-The first step is to setup the software environment for the dashcam, and then load the Python code that makes the code function. The Software & OS section outlines the process in full, starting with setting up the Raspberry Pi Zero, flashing the SD card and installing the depedencies and updates to your machine.
 
-![terminal output installing software](images/alto-readme-9.gif)
-<br>
-<br>
+The first step is to setup the software environment for the dashcam, this can be done by two different methods, look at the following links to get started:
+### 1.0: [Set up the software](1.1-Set-up-the-software.md)
+
+
+
 ### 2.0: [Build the electronics](2.0-Build-the-electronics.md)
 
 The electronics for dashcam have been designed to be as simple and hackable as possible. You only need a few common components and basic soldering skills (OPTIONAL) to assemble everything. ~~A full step-by-step guide, with schematics and a bill of materials, is included in the Electronics directory in this repository.~~
