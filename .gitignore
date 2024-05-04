@@ -1,3 +1,4 @@
 etc
 etc/*
 .DS_Store
+software/legacy-code/config.ini
