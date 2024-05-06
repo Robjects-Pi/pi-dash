@@ -2,3 +2,5 @@ etc
 etc/*
 .DS_Store
 software/legacy-code/config.ini
+software/camera/bullseye-bookworm/python/record-10-secs/config.ini
+software/camera/bullseye-bookworm/python/record-10-secs/upload_files/config.ini
