@@ -4,3 +4,5 @@ etc/*
 software/legacy-code/config.ini
 software/camera/bullseye-bookworm/python/record-10-secs/config.ini
 software/camera/bullseye-bookworm/python/record-10-secs/upload_files/config.ini
+software/camera/bullseye-bookworm/python/advanced_manipulation/haarcascade_frontalface_default.xml
+software/camera/bullseye-bookworm/python/upload_files/config.ini
