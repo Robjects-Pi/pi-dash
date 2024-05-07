@@ -15,10 +15,9 @@ Say hello to the world of DIY recording, and introduce yourself to your own DIY 
 <br>
 
 ***Table of Contents***
-- [Pi-Dash - DIY Dashcam using Raspberry Pi](#pi-dash---diy-dashcam-using-raspberry-pi)
+- [Pi-Dash](#pi-dash)
 - [Overview](#overview)
   - [What you’ll find in this document](#what-youll-find-in-this-document)
-  - [What you’ll find in this document](#what-youll-find-in-this-document-1)
     - [4.0: Printing out the electronics casing (OPTIONAL)](#40-printing-out-the-electronics-casing-optional)
   - [Remixing Pi-Dash for your projects](#remixing-pi-dash-for-your-projects)
     - [Hacking the software](#hacking-the-software)
@@ -41,34 +40,9 @@ Also, by following this tutorial, you will learn about the basics of machine lea
 
 comes from variety of automatically record when utilizing your vehicle. This way, you manually store your data and recordings on a drive you can take out whenever you need it. The code is layed out so you can manipulate it as you please in case you want to add your own personal code with it.
 
-## What you’ll find in this document
-
-This document has five chapters:
-    
-  1. **Setting up the rpi image**: Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
-  2. **Assembling and gathering components**: Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
-  3. **Setting up and testing pi dashcam for automatic recordings of preferred length**: An easy-to-follow software overview of services set on rpi to make automatic recording of camera whenever you turn on the device.
-  4. **Printing out the case for all your components(OPTIONAL)**:  A set of simple experiments to help understand how Alto works, and how you can use Alto to introduce some of the basic concepts of machine learning to others.
-  5. **Putting together the device with the car mounting equipment**: Setting up your device in your car for aesthetic build - A brief introduction to how you can hack your Alto to look and behave differently to fit your own application.
-
-
-This repository contains instructions:
-- Python files for recording and storing of files for location of preference
-- bash scripts to test and run python files from environment
-- systemd scripts that configure self-start of recordings at boot time.
-- instructions on potential offline synchronization with server or external usb 
-
-Many customizations are available, as I implemented a battery on my personal device to enable offline transfer of videos for extra security. Please feel free to fork, export the project, and utilize the project however you please.
-
-\
-
-
- ![pidash installed image here](images/pidash-installed.jpg)
 <br>
 <br>
 ## What you’ll find in this document
-
-This document has five chapters:
 
 -  **[1. Setting up the rpi image](#User-guide)** -
 Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
@@ -78,20 +52,14 @@ Explaining functionality through prototype build through easy-to-follow tutorial
 
 -  **[3. Setting up and testing pi dashcam for automatic recordings of preferred length](#Software-for-rpi)** -
 An easy-to-follow software overview of services set on rpi to make automatic recording of camera whenever you turn on the device.
-- **[4.  printing out the case for all your components(OPTIONAL) ](#Experiment-with-Alto)** -
+- **[4.  printing out the case for all your components(OPTIONAL) ](#)** -
 A set of simple experiments to help understand how Alto works, and how you can use Alto to introduce some of the basic concepts of machine learning to others.
 
-- **[5. Putting together the device with the car mounting equipment.Setting up your device in your car for aesthetic build](#Remixing-Alto-for-your-projects)** -
+- **[5. Putting together the device with the car mounting equipment.Setting up your device in your car for aesthetic build](#)** -
 A brief introduction to how you can hack your Alto to look and behave differently to fit your own application.
 
-~~- **[Technical overview](#Technical-Overview)** -
-A more detailed overview of Alto’s software and electronics and how they function.<br>~~
-<br>
 
-![assembling alto's casing](images/alto-readme-12.gif)
-<br>
-<br>
-### 4.0: [Printing out the electronics casing (OPTIONAL)](4.0-experiments-with-alto.md)
+### 4.0: [Printing out the electronics casing (OPTIONAL)]()
 
 You should now have a completed pi Dash unit – the next stage is to test it with the scripts included.
 
