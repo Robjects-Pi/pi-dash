@@ -10,7 +10,6 @@ A DIY Dashcam using Raspberry Pi<br>
 
 Say hello to the world of DIY recording, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi.  
 
-![pidash image here](images/pidash.jpg)
 
 <br>
 <br>
