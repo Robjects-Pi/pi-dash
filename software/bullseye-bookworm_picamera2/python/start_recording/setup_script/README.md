@@ -13,11 +13,11 @@ sudo apt-get install python3 python3-pip -y
 
 # Install virtualenv for creating virtual environments
 echo "Installing virtualenv..."
-sudo pip3 install virtualenv
+sudo apt install python3-venv
 
 # Create a virtual environment for Picamera2
 echo "Creating a virtual environment for Picamera2..."
-virtualenv picamera2_env
+python3 -m venv picamera2_env
 
 # Activate the virtual environment
 echo "Activating the virtual environment..."
