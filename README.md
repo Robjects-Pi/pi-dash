@@ -32,7 +32,7 @@ Explaining functionality through prototype build through easy-to-follow tutorial
 Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
 
 
--  **[3. Setting up and testing pi dashcam for automatic recordings of preferred length](software/3.0_Software-Configuring-and-Testing.md)** -
+-  **[3. Setting up and testing pi dashcam for automatic recordings of preferred length](software/bullseye-bookworm_picamera2/python/record_10_secs/3.0_Software-Configuring-and-Testing.md)** -
 An easy-to-follow software overview of services set on rpi to make automatic recording of camera whenever you turn on the device.
 - **[4.  printing out the case for all your components(OPTIONAL) ](hardware/Casing/4.0_Printing-Case.md)** -
 A set of simple experiments to help understand how Alto works, and how you can use Alto to introduce some of the basic concepts of machine learning to others.
