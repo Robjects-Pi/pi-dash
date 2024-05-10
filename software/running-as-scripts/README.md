@@ -1,1 +1,0 @@
-Take a look at repository https://github.com/Robjects-Pi/dash-camera-manual_raspivid.git for full details on how to manually record with scripts and rpi system services.

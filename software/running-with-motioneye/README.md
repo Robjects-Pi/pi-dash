@@ -1,2 +1,0 @@
-In order to utilize motioneye for enabling recording when detection of motion, you can utilize raspian BullsEye OS as it has compabitibility with USB and cable camera using the legacy camera stack. 
-For instructions, please follow this [guide](https://github.com/motioneye-project/motioneye/wiki/Install-on-Raspbian-Bullseye)
