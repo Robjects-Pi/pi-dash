@@ -43,3 +43,11 @@ Here are some options for hacking the casing of the project:
 
 - Creating a custom design for the casing of a raspberry pi 4 or 3
 - Adding a mount to the casing to attach it to a tripod or other device
+
+
+
+
+### Other Operating Systems for Pi-Dash recording
+
+In order to utilize motioneye for enabling recording when detection of motion, you can utilize raspian BullsEye OS as it has compabitibility with USB and cable camera using the legacy camera stack. 
+For instructions, please follow this [guide](https://github.com/motioneye-project/motioneye/wiki/Install-on-Raspbian-Bullseye)
