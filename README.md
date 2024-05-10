@@ -2,7 +2,7 @@
 
 # Pi-Dash
 ___________________
-![](/images/overview-pi-dash.NEF)
+![](/images/overview-pi-dash.jpeg)
 
 A DIY Dashcam using Raspberry Pi<br>
 <br>
@@ -15,17 +15,7 @@ Say hello to the world of DIY recording, and introduce yourself to your own DIY 
 <br>
 
 ***Table of Contents***
-- [Pi-Dash](#pi-dash)
-- [Overview](#overview)
-  - [What you’ll find in this document](#what-youll-find-in-this-document)
-    - [4.0: Printing out the electronics casing (OPTIONAL)](#40-printing-out-the-electronics-casing-optional)
-  - [Remixing Pi-Dash for your projects](#remixing-pi-dash-for-your-projects)
-    - [Hacking the software](#hacking-the-software)
-    - [Hacking the Hardware](#hacking-the-hardware)
-    - [Hacking the casing](#hacking-the-casing)
-    - [OS \& compute](#os--compute)
-    - [Software](#software)
-    - [Electronics](#electronics)
+
 
 # Overview
 The pi dash was designed to simplify data collection, and teach you how to not only code your own recording device but build up the entire enclosure, mount, and set up of an automatic recording device from the endless capabilities of a raspberry Pi!  
@@ -42,8 +32,9 @@ comes from variety of automatically record when utilizing your vehicle. This way
 
 <br>
 <br>
-## What you’ll find in this document
 
+# What you’ll find in this document
+-------------------------------------
 -  **[1. Setting up the rpi image](#User-guide)** -
 Explaining functionality through prototype build through easy-to-follow tutorial aimed at how the project is working
 
@@ -59,12 +50,12 @@ A set of simple experiments to help understand how Alto works, and how you can u
 A brief introduction to how you can hack your Alto to look and behave differently to fit your own application.
 
 
-### 4.0: [Printing out the electronics casing (OPTIONAL)]()
+### [Printing out the electronics casing (OPTIONAL)]()
 
 You should now have a completed pi Dash unit – the next stage is to test it with the scripts included.
 
 
-## [Remixing Pi-Dash for your projects](5.0-remixing-pi-dash.md)
+## [Remixing Pi-Dash for your projects](remixing-pi-dash.md)
 
 All the hardware and software for Pi-Dash was created with hacking and remixing in mind: the case design can be made from different materials, or refactored entirely; the electronics can be adapted to use whatever components you have available;and the software is written in a high level language (Python) with optional bash scripts that are easy to modify. 
 
@@ -93,10 +84,6 @@ Here are some options for hacking the casing of the project:
 - Creating a custom design for the casing of a raspberry pi 4 or 3
 - Adding a mount to the casing to attach it to a tripod or other device
 
-
-### OS & compute
-
-The Raspberry Pi Zero runs Raspberry Pi OS. It is responsible for interfacing with the user’s connected hardware (connected via GPIO, USB or ribben cable).
 
 ### Software
 
