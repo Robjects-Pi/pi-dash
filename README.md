@@ -46,15 +46,23 @@ A brief introduction to how you can hack your Alto to look and behave differentl
 All the hardware and software for Pi-Dash was created with hacking and remixing in mind: the case design can be made from different materials, or refactored entirely; the electronics can be adapted to use whatever components you have available;and the software is written in a high level language (Python) with optional bash scripts that are easy to modify. 
 
 
+<!-- TODO: add either mit license or cc license 
 # License
 ____________________
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+-->
 
 # Acknowledgments
 ____________________
-- [Raspberry Pi Foundation](https://www.raspberrypi.org/)
+
+Raspberry Pi is a trademark of Raspberry Pi Ltd
+(See [Website](https://www.raspberrypi.org/))
+
+
+# Built With
 - [PiCamera](https://picamera.readthedocs.io/en/release-1.13/)
 - [OpenCV](https://opencv.org/)
 - [Python](https://www.python.org/)
+- [Bash](https://www.gnu.org/software/bash/)
   
 
