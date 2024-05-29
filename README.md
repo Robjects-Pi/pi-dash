@@ -2,6 +2,9 @@
 
 # Pi-Dash
 ___________________
+<img src="images/pi-dash.jpeg" alt="pi-dash" style="max-width:100%;height:auto;">
+<br>
+
 
 
 Say hello to the world of DIY recording, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi.
