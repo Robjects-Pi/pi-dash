@@ -2,11 +2,8 @@
 
 # Pi-Dash
 ___________________
-A DIY Dashcam using Raspberry Pi Zero W and Pi Camera Module V2.1!
+![overview of pi-dash](images/pi-dash.jpeg)
 
-<center>
-<img src="images/pi-dash.jpeg" alt="pi-dash" style="max-width:80%;height:80%;">
-</center>
 
 
 Say hello to the world of DIY recording, and introduce yourself to your own DIY dashcam built and ported to a raspberry pi.
